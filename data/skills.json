@@ -1,31 +1,48 @@
 [
   {
       "grouping":"Architecture",
-      "skills":[ "IP Networking","DNS","Firewalls","Load Balancing","Microservices","RESTful APIs","SaaS/PaaS/IaaS"]
-  },{
+      "skills":[ 
+      {"name":"IP Networking", "icon":"network"},
+      {"name":"DNS", "icon":"dns"},
+      {"name":"Firewalls", "icon":"firewall"},
+      {"name":"Load Balancing", "icon":"load-balancer"},
+      {"name":"Microservices", "icon":"microservices"},
+      {"name":"PC Building", "icon":"pc-building"}
+      ]
+  }, 
+  {
       "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Java","Python","git","subversion","linux","bash","php","jquery","javascript"]
+      "skills":[
+      {"name":"Java", "icon":"java"},
+      {"name":"Python", "icon":"python"},
+      {"name":"Git", "icon":"git"},
+      {"name":"Linux", "icon":"linux"},
+      {"name":"Bash", "icon":"bash"},
+      {"name":"macOS", "icon":"apple"},
+      {"name":"Windows", "icon":"windows"},
+      {"name":"C++", "icon":"c++"},
+      {"name":"C#", "icon":"csharp"}
+      ]
   },
   {
-      "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Bamboo","Bitbucket","NGINX","MySQL","Wordpress"]
+      "grouping":"Mobile Development",
+      "skills":[
+        {"name":"Android","icon":"android"}
+      ]
   },
   {
       "grouping":"Data Management",
       "skills":[
-        {"name":"Microsoft SQL Server","icon":"msql_server"},
+        {"name":"PostgreSQL","icon":"database"},
+        {"name":"MySQL","icon":"database"},
         {"name":"Oracle","icon":"database"},
-        "MongoDB",
         {"name":"Apache Spark"}
       ]
   },
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"BOSH","link":"https://bosh.io"},
           {"name":"Docker","link":"https://docker.com"},
-          {"name":"AWS","link":"https://aws.amazon.com"},
-          {"name":"Google Cloud","link":"https://cloud.google.com"},
           {"name":"Linux","link":"https://bosh.io"}
       ]
   }
